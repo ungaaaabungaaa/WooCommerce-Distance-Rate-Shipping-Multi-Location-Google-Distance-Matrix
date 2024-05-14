@@ -2,7 +2,7 @@
 
 ## Functionality Overview
 
-- **Dependency Check:** The plugin ensures that WooCommerce is active before proceeding with its functionality.
+- **Dependency Check:** The Php Scripts ensures that WooCommerce is active before proceeding with its functionality.
   
 - **Custom Shipping Method Registration:** It registers a custom shipping method named `custom_shipping` through the `custom_shipping_method` function, which hooks into the `woocommerce_shipping_methods` filter.
 
@@ -14,4 +14,4 @@
 
 ## Summary
 
-The plugin dynamically calculates shipping rates based on proximity to the nearest store during checkout, providing users with customized shipping options tailored to their location.
+The Scripts dynamically calculates shipping rates based on proximity to the nearest store during checkout, providing users with customized shipping options tailored to their location.
