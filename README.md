@@ -1,5 +1,14 @@
 # WooCommerce-Distance-Rate-Shipping-Multi-Location-Google-Distance-Matrix
 
+
+## Installation
+
+1. Download & Activate Code snippet From Wordpress Plugin Store
+2. Copy Paste the Script 
+3. Add in Your Stores Locations latitude & Longitudes
+4. Add your Google Distance Matrix Key
+5. Modify the Shipping Chrages as needed 
+
 ## Functionality Overview
 
 - **Dependency Check:** The Php Scripts ensures that WooCommerce is active before proceeding with its functionality.
@@ -11,6 +20,9 @@
   - **calculate_shipping Method:** Determines shipping cost based on the distance from the nearest store. It retrieves destination address, calculates distance from each store, selects the nearest store, and calculates shipping cost using the `calculate_shipping_cost` method.
   - **get_distance Method:** Calculates distance between two coordinates using the Haversine formula.
   - **calculate_shipping_cost Method:** Computes shipping cost based on the distance from the nearest store. It hides the shipping method if the distance is less than 5 km. For distances beyond 5 km, it charges $15 for each extra kilometer beyond the initial 5 km, up to a maximum of 10 km.
+
+### Snippet Preview
+![Alt Text](https://i.imgur.com/kLIRRdu.png)
 
 ## Summary
 
